@@ -1,0 +1,15 @@
+.container {
+  &__guess-color {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 150px;
+    row-gap: 20px;
+    padding-top: 50px;
+
+    &__card {
+      width: 25%;
+      height: 250px;
+    }
+  }
+}

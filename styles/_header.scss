@@ -1,0 +1,39 @@
+@import "config";
+
+.container {
+  background-color: $color-container-gackground;
+  padding: 100px;
+  height: 100vh;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+
+    &__random-color {
+      > p {
+        font-size: 25px;
+      }
+    }
+
+    input {
+      border: 3px solid $color-border-input;
+      background-color: $color-input-background;
+
+      font-size: 15px;
+      width: 200px;
+      height: 30px;
+      border-radius: 30px;
+      outline: none;
+      text-indent: 10px;
+    }
+
+    select {
+      background-color: $color-select;
+      color: $color-selec-text;
+
+      font-size: 20px;
+      padding: 10px;
+      width: 150px;
+    }
+  }
+}

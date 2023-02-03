@@ -1,0 +1,19 @@
+@import "config";
+@import "header";
+@import "guess-color";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+td {
+  border: 2px solid $border-color-table;
+  margin: 0;
+  min-width: 70px;
+}
+
+table {
+  width: 100%;
+  padding: 20px;
+}
